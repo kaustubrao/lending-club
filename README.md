@@ -1,48 +1,39 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case Study
+> This project contains all the files associated with my submission for the lending club case study
 
+In order to reproduce the analysis, place the loan dataset in the same folder as the ipynb notebook and run from start to finish
 
 ## Table of Contents
 * [General Info](#general-information)
-* [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* [Technologies Used](#technologies-used)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- The aim of this project is to help the Lending Club reduce loan defaults without significantly leaving money on the table, i.e. denying legitimate customers loans they would be capable of paying back
+- Loan data from 2008-2011 is available for this analysis, along with various attributes that can be used to identify drivers of default
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Loan grade, term of loan and interest rates are the biggest drivers of defaults
+- Specifically, loans grades D,E,F, long term (60 month) loans and interest rates >15% are associated with very high default rates
+- Users that have bankruptcies in the public record are also likely to have higher default rates 
+- Loans that do not get funded (by investors) completely (funded to ratio <80%) also have a higher likelihood of default
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- pandas - version 1.5.3
+- numpy - version 1.23.5
+- seaborn - version 0.12.2
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
-
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@kaustubrao] - feel free to contact me!
 
 
 <!-- Optional -->
