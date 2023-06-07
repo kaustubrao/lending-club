@@ -17,10 +17,10 @@ In order to reproduce the analysis, place the loan dataset in the same folder as
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Loan grade, term of loan and interest rates are the biggest drivers of defaults
-- Specifically, loans grades D,E,F, long term (60 month) loans and interest rates >15% are associated with very high default rates
-- Users that have bankruptcies in the public record are also likely to have higher default rates 
-- Loans that do not get funded (by investors) completely (funded to ratio <80%) also have a higher likelihood of default
+- **Loan grade**, **term of loan** and **interest rates** are the biggest drivers of defaults
+- Specifically, loans grades *D,E,F*, long term (*60 month*) loans and interest rates *>15%* are associated with very high default rates
+- Users that have **bankruptcies in the public record** are also likely to have higher default rates 
+- Loans that **do not get funded (by investors)** completely (funded to ratio *<80%*) also have a higher likelihood of default
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
